@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>mission4-5</title>
+    <style>
+        body {
+            background-color: rgb(255, 171, 184)
+        }
+        #header {
+            font-size: 2em;
+            text-align: center;
+            margin-top: 20px;
+        }
+        #text1{
+            font-size: 1.5em;
+            text-align: center;
+            margin-top: 50px
+        }
+        #omikuji-image {
+            display: block;
+            margin: 20px auto;
+            width: 200px;
+        }
+        #omikuji-kekka {
+            font-size: 1.8em;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">～今日の運勢～</div>
+	<div id="text1">今日の運勢を占ってみましょう</div>
+    <img id="omikuji-image" src="omikuji.png" alt="おみくじの画像">
+    <div id="omikuji-kekka"></div>
+    <div id="button-container">
+	<button onclick="omikujishow()">おみくじを引く</button>
+    </div>
+	<script src="mission4-5.js"></script>
+</body>
+</html>
